@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        color: #18364d;
+        line-height: 1.8;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: "Playfair Display", serif;
+    }
+    .navbar {
+        background-color: #082c49;
+    }
+
+    .navbar-brand {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .navbar-brand:hover {
+        color: #8ed4ff;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: #8ed4ff;
+    }
+
+    .hero {
+        background:
+            linear-gradient(rgba(4, 30, 51, 0.65),
+                rgba(4, 30, 51, 0.65)),
+            url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=80");
+
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 130px 20px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 18px;
+        max-width: 750px;
+        margin: 20px auto;
+    }
+
+    .section-padding {
+        padding: 80px 80px;
+    }
+
+    .section-title {
+        color: #082c49;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .info-card {
+        background-color: #f0f8fc;
+        padding: 30px;
+        border-radius: 10px;
+        height: 100%;
+        transition: 0.3s;
+    }
+
+    .info-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-card h3 {
+        color: #0d4b78;
+        margin-bottom: 15px;
+    }
+
+    .values-section {
+        background-color: #eaf5fb;
+    }
+
+    .value-item {
+        padding: 15px;
+        margin-bottom: 10px;
+        border-left: 4px solid #0d4b78;
+        background-color: white;
+    }
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ALPINE ASCENT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="contianer">
+            <h1>More Than Just a Climb</h1>
+            <p></p>
+            <a href="#about" class="btn btn-info mt-3">
+                Discover Our Story
+            </a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+                    <h2 class="section-title">About Alpine Ascent</h2>
+
+                    <h4>Our Story</h4>
+
+                    <p>
+                        At <strong>Alpine Ascent</strong>, we believe
+                        that every mountain holds a story, every trail
+                        offers a new perspective, and every journey
+                        creates an opportunity for growth.
+                    </p>
+
+                    <p>
+
+                        We are passionate about mountain exploration,
+                        outdoor adventure, and the extraordinary beauty
+                        of nature. Our goal is to inspire people to step
+                        beyond their comfort zones, discover breathtaking
+                        landscapes, and experience the mountains with
+                        confidence, respect, and responsibility.
+                    </p>
+
+                    <p>
+                        Alpine Ascent was built around a shared passion
+                        for adventure and the belief that mountains offer
+                        more than just a destination. They teach patience,
+                        build resilience, encourage teamwork, and remind
+                        us to protect the natural world.
+                    </p>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=1000&q=80"
+                        alt="Beautiful alpine mountain landscape" class="about-image">
+                </div>
+
+
+                <div class="col-lg-6">
+                    <h2 class="section-title">Our Love For The Natural World</h2>
+                    <p>
+                        Nature has a unique way of inspiring us. The quiet beauty of an alpine lake, the fresh air of a
+                        mountain
+                        forest, and the sight of wildlife living freely in its natural habitat remind us how
+                        extraordinary
+                        our
+                        planet truly is.
+                    </p>
+                    <p>
+                        At Alpine Ascent, our passion comes from a desire to explore these beautiful places and share
+                        their
+                        stories
+                        with the world. We believe that every landscape has something special to offer, whether it is a
+                        breathtaking
+                        mountain view, a hidden lake, or a small detail of wildlife that often goes unnoticed.
+                    </p>
+                    <p>
+                        Our goal is to encourage people to slow down, look closer, and develop a deeper appreciation for
+                        the
+                        natural
+                        world.
+                        "Inspired by Nature, Driven by Discovery, and Committed to Preserving the Extraordinary Beauty of Our Natural World".
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../Images/image 1.jpeg" alt="image is not valid" class="about-image">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">Adventure And Exploration</h2>
+                    <p>
+                        Adventure gives us the opportunity to discover new places, experience different landscapes, and create unforgettable memories. Hiking through mountain trails, exploring green forests, and enjoying the fresh mountain air can bring us closer to nature. Alpine Ascent encourages responsible exploration, careful planning, and respect for safety so that every outdoor experience can be enjoyable and memorable
+                    </p>
+                    <p>
+                        At Alpine Ascent, we believe that adventure is not only about reaching the highest peaks but also about enjoying every step of the journey. Exploring nature helps us feel connected to our surroundings, develop confidence, and appreciate the peaceful beauty of the world. Whether it is hiking through a forest, exploring a beautiful mountain valley,
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../Images/image 2.jpeg" alt="image is not valid" class="about-image">
+                </div>
+                <div class="col-lg-6">
+                 <h2 class="section-title">Protect Our Mountain Enviroment</h2>
+                 <p>
+                    Mountain environments are among the most beautiful and valuable treasures of our planet. They provide fresh water, clean air, rich forests, and natural habitats for countless plants and animals.Protecting these environments is important because they support wildlife, maintain ecological balance, and provide valuable resources.
+                 </p>
+                 <p>
+                    At Alpine Ascent, we believe that protecting nature is everyone's responsibility. Visitors, local communities, and nature lovers can work together to keep mountains clean, support conservation efforts, and promote responsible tourism. By educating others and making environmentally friendly choices, we can protect mountain ecosystems for future generations.<b> Let us protect our mountains today, preserve their natural beauty, and create a cleaner, greener, and healthier world for tomorrow</b>.
+                 </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../Images/image 3.jpeg" alt="image is not valid" class="about-image">
+                </div>
+            </div>
+
+        </div>
+    </section> 
+
+    <section class="section-padding" id="values">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Core Values</h2>
+
+                <p>
+                    These values guide our approach to adventure,
+                    teamwork, learning, and environmental responsibility.
+                </p>
+            </div>
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <div class="value-item">
+                        <h4>Safety First</h4>
+                        <p>
+                            We believe preparation and responsible
+                            decision-making are essential for every
+                            mountain adventure. Understanding conditions,
+                            choosing suitable equipment, and recognizing
+                            personal limits help make outdoor experiences
+                            more responsible.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="value-item">
+                        <h4>Adventure</h4>
+                        <p>
+                            Adventure encourages discovery, courage,
+                            curiosity, and personal growth. Every trail
+                            gives us a chance to learn something new
+                            and appreciate the world around us.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="value-item">
+                        <h4>Respect for Nature</h4>
+                        <p>
+                            We encourage people to protect mountain
+                            landscapes, respect wildlife, reduce waste,
+                            and follow responsible outdoor practices
+                            to help preserve nature.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="value-item">
+                        <h4>Teamwork</h4>
+                        <p>
+                            Trust, communication, cooperation, and
+                            mutual support make every journey more
+                            rewarding. We value the connections
+                            people build through shared experiences.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="value-item">
+                        <h4>Continuous Learning</h4>
+                        <p>
+                            We encourage people to improve their
+                            knowledge, understand mountain conditions,
+                            learn from reliable guidance, and approach
+                            every new experience with humility.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="value-item">
+                        <h4>Community</h4>
+                        <p>
+                            We believe outdoor adventures can bring
+                            people together. A welcoming community
+                            creates opportunities to share knowledge,
+                            encourage others, and build lasting memories.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section-padding values-section">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80"
+                        alt="Snow covered mountain peaks" class="about-image">
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="section-title">Why Alpine Ascent?</h2>
+
+                    <p>
+                        We believe the best adventures are about more
+                        than reaching the summit. They are about the
+                        people we meet, the challenges we overcome,
+                        the lessons we learn, and the memories we create.
+                    </p>
+
+                    <p>
+                        Alpine Ascent celebrates exploration, thoughtful
+                        preparation, environmental awareness, and the
+                        determination to reach new heights. We want to
+                        inspire beginners and experienced outdoor
+                        enthusiasts alike to approach the mountains
+                        with curiosity and respect.
+                    </p>
+
+                    <p>
+                        Every adventure begins with a decision to take
+                        the first step. With preparation, patience,
+                        and a responsible mindset, that step can lead
+                        to a new perspective on the world.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
